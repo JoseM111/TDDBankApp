@@ -7,15 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9EEA72B854C7649ADDE15A5A /* MyTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EEA7C82FACD4D8037AEAF56 /* MyTools.swift */; };
+		9EEA76CFB7F643351643C292 /* MyTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EEA7C82FACD4D8037AEAF56 /* MyTools.swift */; };
+		9EEA798B118721B41EADFAF4 /* AccError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EEA7E0D5C82849184C157EC /* AccError.swift */; };
+		9EEA7ABF24A6DAE2118D1A2C /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EEA788C0A5484F4955FD7FB /* Account.swift */; };
+		9EEA7BB4E9A3D4D9F246050B /* AccError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EEA7E0D5C82849184C157EC /* AccError.swift */; };
 		AB33C1CC24890C8700E90F20 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB33C1CB24890C8700E90F20 /* AppDelegate.swift */; };
 		AB33C1CE24890C8700E90F20 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB33C1CD24890C8700E90F20 /* SceneDelegate.swift */; };
 		AB33C1D024890C8700E90F20 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB33C1CF24890C8700E90F20 /* ViewController.swift */; };
 		AB33C1D324890C8700E90F20 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB33C1D124890C8700E90F20 /* Main.storyboard */; };
 		AB33C1D524890C8800E90F20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB33C1D424890C8800E90F20 /* Assets.xcassets */; };
 		AB33C1D824890C8800E90F20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB33C1D624890C8800E90F20 /* LaunchScreen.storyboard */; };
+		AB33C1E624890CD900E90F20 /* TDDBankAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB33C1E524890CD900E90F20 /* TDDBankAppTests.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		AB33C1E824890CD900E90F20 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB33C1C024890C8700E90F20 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB33C1C724890C8700E90F20;
+			remoteInfo = TDDBankApp;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		9EEA788C0A5484F4955FD7FB /* Account.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
+		9EEA7C82FACD4D8037AEAF56 /* MyTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTools.swift; sourceTree = "<group>"; };
+		9EEA7E0D5C82849184C157EC /* AccError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccError.swift; sourceTree = "<group>"; };
 		AB33C1C824890C8700E90F20 /* TDDBankApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TDDBankApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB33C1CB24890C8700E90F20 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AB33C1CD24890C8700E90F20 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +43,9 @@
 		AB33C1D424890C8800E90F20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AB33C1D724890C8800E90F20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AB33C1D924890C8800E90F20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB33C1E324890CD900E90F20 /* TDDBankAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TDDBankAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB33C1E524890CD900E90F20 /* TDDBankAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDDBankAppTests.swift; sourceTree = "<group>"; };
+		AB33C1E724890CD900E90F20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,13 +56,38 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AB33C1E024890CD900E90F20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9EEA7CDA5646FD9FEB0EA382 /* MyTools */ = {
+			isa = PBXGroup;
+			children = (
+				9EEA7C82FACD4D8037AEAF56 /* MyTools.swift */,
+			);
+			path = MyTools;
+			sourceTree = "<group>";
+		};
+		9EEA7F4E204050581A9D9D50 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9EEA788C0A5484F4955FD7FB /* Account.swift */,
+				9EEA7E0D5C82849184C157EC /* AccError.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		AB33C1BF24890C8700E90F20 = {
 			isa = PBXGroup;
 			children = (
 				AB33C1CA24890C8700E90F20 /* TDDBankApp */,
+				AB33C1E424890CD900E90F20 /* TDDBankAppTests */,
 				AB33C1C924890C8700E90F20 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,6 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				AB33C1C824890C8700E90F20 /* TDDBankApp.app */,
+				AB33C1E324890CD900E90F20 /* TDDBankAppTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -63,8 +111,19 @@
 				AB33C1D424890C8800E90F20 /* Assets.xcassets */,
 				AB33C1D624890C8800E90F20 /* LaunchScreen.storyboard */,
 				AB33C1D924890C8800E90F20 /* Info.plist */,
+				9EEA7F4E204050581A9D9D50 /* Models */,
+				9EEA7CDA5646FD9FEB0EA382 /* MyTools */,
 			);
 			path = TDDBankApp;
+			sourceTree = "<group>";
+		};
+		AB33C1E424890CD900E90F20 /* TDDBankAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				AB33C1E524890CD900E90F20 /* TDDBankAppTests.swift */,
+				AB33C1E724890CD900E90F20 /* Info.plist */,
+			);
+			path = TDDBankAppTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -87,6 +146,24 @@
 			productReference = AB33C1C824890C8700E90F20 /* TDDBankApp.app */;
 			productType = "com.apple.product-type.application";
 		};
+		AB33C1E224890CD900E90F20 /* TDDBankAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB33C1EA24890CD900E90F20 /* Build configuration list for PBXNativeTarget "TDDBankAppTests" */;
+			buildPhases = (
+				AB33C1DF24890CD900E90F20 /* Sources */,
+				AB33C1E024890CD900E90F20 /* Frameworks */,
+				AB33C1E124890CD900E90F20 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB33C1E924890CD900E90F20 /* PBXTargetDependency */,
+			);
+			name = TDDBankAppTests;
+			productName = TDDBankAppTests;
+			productReference = AB33C1E324890CD900E90F20 /* TDDBankAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -99,6 +176,10 @@
 				TargetAttributes = {
 					AB33C1C724890C8700E90F20 = {
 						CreatedOnToolsVersion = 11.5;
+					};
+					AB33C1E224890CD900E90F20 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = AB33C1C724890C8700E90F20;
 					};
 				};
 			};
@@ -116,6 +197,7 @@
 			projectRoot = "";
 			targets = (
 				AB33C1C724890C8700E90F20 /* TDDBankApp */,
+				AB33C1E224890CD900E90F20 /* TDDBankAppTests */,
 			);
 		};
 /* End PBXProject section */
@@ -131,6 +213,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AB33C1E124890CD900E90F20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -141,10 +230,31 @@
 				AB33C1D024890C8700E90F20 /* ViewController.swift in Sources */,
 				AB33C1CC24890C8700E90F20 /* AppDelegate.swift in Sources */,
 				AB33C1CE24890C8700E90F20 /* SceneDelegate.swift in Sources */,
+				9EEA7ABF24A6DAE2118D1A2C /* Account.swift in Sources */,
+				9EEA76CFB7F643351643C292 /* MyTools.swift in Sources */,
+				9EEA7BB4E9A3D4D9F246050B /* AccError.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB33C1DF24890CD900E90F20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB33C1E624890CD900E90F20 /* TDDBankAppTests.swift in Sources */,
+				9EEA72B854C7649ADDE15A5A /* MyTools.swift in Sources */,
+				9EEA798B118721B41EADFAF4 /* AccError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AB33C1E924890CD900E90F20 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB33C1C724890C8700E90F20 /* TDDBankApp */;
+			targetProxy = AB33C1E824890CD900E90F20 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		AB33C1D124890C8700E90F20 /* Main.storyboard */ = {
@@ -316,6 +426,46 @@
 			};
 			name = Release;
 		};
+		AB33C1EB24890CD900E90F20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8R94WS9HFC;
+				INFOPLIST_FILE = TDDBankAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.jose.TDDBankAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TDDBankApp.app/TDDBankApp";
+			};
+			name = Debug;
+		};
+		AB33C1EC24890CD900E90F20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8R94WS9HFC;
+				INFOPLIST_FILE = TDDBankAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.jose.TDDBankAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TDDBankApp.app/TDDBankApp";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -333,6 +483,15 @@
 			buildConfigurations = (
 				AB33C1DD24890C8800E90F20 /* Debug */,
 				AB33C1DE24890C8800E90F20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB33C1EA24890CD900E90F20 /* Build configuration list for PBXNativeTarget "TDDBankAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB33C1EB24890CD900E90F20 /* Debug */,
+				AB33C1EC24890CD900E90F20 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
