@@ -39,7 +39,7 @@ class TDDBankAppTests: XCTestCase {
     
     func test_WithdrawFunds() {
         acc.deposit(100)
-        acc.withdraw(50)
+        try? acc.withdraw(50)
 
         XCTAssertEqual(50, acc.balance)
     }

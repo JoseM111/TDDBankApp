@@ -1,5 +1,9 @@
 import Foundation
 
+enum AccError: Error {
+    case insufficientFunds
+}
+
 struct Account {
     var balance: Double = 0.0
 
@@ -8,9 +12,9 @@ struct Account {
         self.balance += amt
     }
     
-    mutating func withdraw(_ amt: Double) throws {
+    mutating func withdraw(_ amt: Double) throws{
         let netBalance: Double = self.balance - amt
-        if netBalance == 0 {
+        if netBalance < 0 {
             throw AccError.insufficientFunds
         } else {
             self.balance -= amt

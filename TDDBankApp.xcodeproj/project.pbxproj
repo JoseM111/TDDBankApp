@@ -9,9 +9,7 @@
 /* Begin PBXBuildFile section */
 		9EEA72B854C7649ADDE15A5A /* MyTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EEA7C82FACD4D8037AEAF56 /* MyTools.swift */; };
 		9EEA76CFB7F643351643C292 /* MyTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EEA7C82FACD4D8037AEAF56 /* MyTools.swift */; };
-		9EEA798B118721B41EADFAF4 /* AccError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EEA7E0D5C82849184C157EC /* AccError.swift */; };
 		9EEA7ABF24A6DAE2118D1A2C /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EEA788C0A5484F4955FD7FB /* Account.swift */; };
-		9EEA7BB4E9A3D4D9F246050B /* AccError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EEA7E0D5C82849184C157EC /* AccError.swift */; };
 		AB33C1CC24890C8700E90F20 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB33C1CB24890C8700E90F20 /* AppDelegate.swift */; };
 		AB33C1CE24890C8700E90F20 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB33C1CD24890C8700E90F20 /* SceneDelegate.swift */; };
 		AB33C1D024890C8700E90F20 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB33C1CF24890C8700E90F20 /* ViewController.swift */; };
@@ -34,7 +32,6 @@
 /* Begin PBXFileReference section */
 		9EEA788C0A5484F4955FD7FB /* Account.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
 		9EEA7C82FACD4D8037AEAF56 /* MyTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTools.swift; sourceTree = "<group>"; };
-		9EEA7E0D5C82849184C157EC /* AccError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccError.swift; sourceTree = "<group>"; };
 		AB33C1C824890C8700E90F20 /* TDDBankApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TDDBankApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB33C1CB24890C8700E90F20 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AB33C1CD24890C8700E90F20 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -78,7 +75,6 @@
 			isa = PBXGroup;
 			children = (
 				9EEA788C0A5484F4955FD7FB /* Account.swift */,
-				9EEA7E0D5C82849184C157EC /* AccError.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -232,7 +228,6 @@
 				AB33C1CE24890C8700E90F20 /* SceneDelegate.swift in Sources */,
 				9EEA7ABF24A6DAE2118D1A2C /* Account.swift in Sources */,
 				9EEA76CFB7F643351643C292 /* MyTools.swift in Sources */,
-				9EEA7BB4E9A3D4D9F246050B /* AccError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,7 +237,6 @@
 			files = (
 				AB33C1E624890CD900E90F20 /* TDDBankAppTests.swift in Sources */,
 				9EEA72B854C7649ADDE15A5A /* MyTools.swift in Sources */,
-				9EEA798B118721B41EADFAF4 /* AccError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
