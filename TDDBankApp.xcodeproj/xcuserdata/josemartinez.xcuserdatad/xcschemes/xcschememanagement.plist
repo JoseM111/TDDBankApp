@@ -9,33 +9,40 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
-		<key>TDDBankAppTests.test_InitialBalanceZero.xcscheme</key>
+		<key>BDD_when_creating_a_bank_account.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false />
 			<key>orderHint</key>
 			<integer>1</integer>
 		</dict>
-		<key>TDDBankAppTests.xcscheme</key>
+		<key>Setup_Account.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false />
 			<key>orderHint</key>
 			<integer>2</integer>
 		</dict>
-		<key>TDDBankAppTests.test_DepositFunds.xcscheme</key>
+		<key>BDD_withdrawing_funds_from_account.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false />
 			<key>orderHint</key>
 			<integer>3</integer>
 		</dict>
-		<key>TDDBankAppTests.test_WithdrawFromInsufficientFunds.xcscheme</key>
+		<key>BDD_withdrawing_funds_from_account.test_should_deduct_amount_successfully.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false />
 			<key>orderHint</key>
 			<integer>4</integer>
+		</dict>
+		<key>BDD_withdrawing_funds_from_account.test_should_throw_exception_when_there_is_insufficient_funds.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false />
+			<key>orderHint</key>
+			<integer>5</integer>
 		</dict>
 	</dict>
 </dict>
